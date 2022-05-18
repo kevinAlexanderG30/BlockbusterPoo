@@ -1,0 +1,85 @@
+/* Some generic style to make the page look nice - not required */
+.contenidoGoogle {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Googlebutton {
+    margin: 1rem;
+  }
+  
+  /* GOOGLE SIGN IN BUTTON */
+  .googleSignIn {
+    border: none;
+    border-radius: 2px;
+    background-color: #4285f4;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    display: flex;
+    padding: 1px;
+    color: #FFF;
+  }
+  .googleSignIn:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  }
+  .googleSignIn:active {
+    background: #3367D6;
+  }
+  
+  .googleSignIn--white {
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .googleSignIn--white:active {
+    background: #EEEEEE;
+  }
+  
+  .googleSignIn:disabled {
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.4);
+    box-shadow: none;
+  }
+  
+  .googleSignIn__text {
+    padding: 11px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  /*diego*/
+
+  #cards {
+    margin:5em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 3em;
+    grid-row-gap: 2em;
+}
+
+.card1 {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+    gap: 2rem !important;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #E5E3C9;
+}
+
+#search_bar_container {
+    display: flex;
+    justify-content: center;
+}
+
+#search_bar {
+    width: 20%;
+}
